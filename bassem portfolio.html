@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bassem Salah - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            cursor: pointer;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 2rem;
+            display: none;
+        }
+        section.active {
+            display: block;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+    </style>
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('section').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Bassem Sala - Portfolio</h1>
+        <p>Business Development Management & Operations Management-Strategic Planning</p>
+    </header>
+
+    <nav>
+        <a onclick="showSection('about')">About Me</a>
+        <a onclick="showSection('experience')">Experience</a>
+        <a onclick="showSection('skills & Languages')">Skills & Languages</a>
+        <a onclick="showSection('education')">Education & Courses</a>
+        <a onclick="showSection('contact')">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="active">
+            <h2>Summary</h2>
+
+            <p><li>With over 15 years of experience in business development, 
+               strategic planning , I've unwaveringly pursued excellence and professional growth  throughout my 
+               career journey. This dedication has resulted in a strong track record of business expansion 
+               and fostering customer relationships.</li>
+
+               <li>My mission is clear: 
+               driving growth, establishing strategic alliances, and delivering exceptional results,—this is my area                 
+                of expertise and I specialize in that.</li>
+              
+               <li>I'm genuinely excited to collaborate with a prestigious    
+               organization that possesses a unique character. Together, 
+               we'll explore new horizons, achieve unprecedented success, 
+               overcome challenges, and accomplish remarkable milestones.</li>
+
+</p>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experiences</h2>
+           
+            <h3>Grand Solution (Apr 2023 - Current)</h3>
+            <p><strong>Business Development Manager</strong></p>
+            <ul>
+                <li>Pursue new opportunities and build client relationships.</li>
+                <li>Prepare proposals, negotiate contracts, and coordinate with teams.</li>
+                <li>Analyze market trends and competitors.</li>
+                <li>Build strong client and partner relationships.</li>
+                <li>Strong communication and strategic skills.</li>
+                <li>Proven ability to manage accounts and deliver results.</li>
+            </ul>
+
+            <h3>INTEGRATED TECHNICS (Nov 2022 - Apr 2023)</h3>
+            <p><strong>Project Manager & BD Partners Manager (ICT)</strong></p>
+            <ul>
+                <li>Drive strategies and support the team to meet targets.</li>
+                <li>Build partnerships and explore new market opportunities.</li>
+                <li>Maintain strong client and partner relationships.</li>
+                <li>Track KPIs and present performance reports.</li>
+                <li>Coordinate with departments and partners for seamless operations.</li>
+            </ul>
+
+            <h3>C&CC (Mar 2022 - Oct 2022)</h3>
+            <p><strong>Account Manager & Business Development Rep</strong></p>
+            <ul>
+                <li>Create and implement growth strategies to expand market presence and increase revenue.</li>
+                <li>Negotiate and close partnership deals that align with company goals.</li>
+                <li>Collaborate with cross-functional teams to ensure successful execution of partnership initiatives.</li>
+                <li>Analyze market trends and competitors to identify new growth opportunities.</li>
+            </ul>
+
+            <h3>Ai Active Technologies (Apr 2018 - Mar 2022)</h3>
+            <p><strong>Senior Account Manager (ITS)</strong></p>
+            <ul>
+                <li>Account Management: Maintain client relationships and ensure project success.</li>
+                <li>Business Development: Identify opportunities in ITS and create tailored proposals.</li>
+                <li>Sales Negotiation: Close deals, meet targets, and manage contracts.</li>
+                <li>Collaboration: Work with teams to deliver ITS solutions effectively.</li>
+                <li>Market Analysis: Refine strategies based on industry trends.</li>
+                <li>Project Oversight: Ensure projects are completed on time and within scope and budget.</li>
+            </ul>
+
+            <h3>Steigenberger | Hurghada Resort (May 2016 - Mar 2018)</h3>
+            <p><strong>Facility Manager</strong></p>
+            <ul>
+                <li>Led an interdisciplinary team, managing daily reports and optimizing resources.</li>
+                <li>Exceeded sales targets by 110% and boosted profits by 150% through strategic deals and campaigns.</li>
+            </ul>
+
+            <h3>Raya CX | Hurghada Side (May 2014 - Oct 2016)</h3>
+            <p><strong>Team Leader</strong></p>
+            <ul>
+                <li>Optimized schedules and assignments to enhance team performance.</li>
+                <li>Provided insights through monthly and annual performance reports.</li>
+                <li>Resolved operational issues and improved efficiency.</li>
+            </ul>
+
+            <h3>Allianz (Nov 2009 - Jan 2014)</h3>
+            <p><strong>Consultant & Financial Planner</strong></p>
+            <ul>
+                <li>Designed and implemented streamlined processes, achieving a revenue increase of up to 40% year-over-year.</li>
+                <li>Developed customized insurance programs to cover target risk types effectively.</li>
+            </ul>
+
+            <h3>Mobinil (Orange Telecommunications) (May 2006 - Mar 2008)</h3>
+            <p><strong>Customer Services Representative</strong></p>
+            <ul>
+                <li>Actively addressed customer inquiries and provided solutions.</li>
+                <li>Implemented strategies to optimize service quality and reduce call times.</li>
+            </ul>
+        </section>
+
+        <section id="skills & Languages">
+            <h2>Skills</h2>
+                        <ul>
+                <li>Performance Evaluations</li>
+                <li>Digital Transformation</li>
+                <li>Professional Ethics</li>
+                <li>International Business</li>
+                <li>Design Thinking</li>
+                <li>Business Strategies</li>
+                <li>Prospecting and Cold Calling</li>
+                <li>Database Management</li>
+                <li>Salesforce Training</li>
+                <li>Strategic Outreach</li>
+                <li>Talent Management</li>
+                <li>Customer Engagement</li>
+                <li>Change Management</li>
+                <li>Professional Ethics</li>
+                <li>Time Management</li>
+                <li>Revenue Retention</li>
+                <li>Managing Multiple Tasks</li>
+                <li>Self Learning & Starting</li>
+                <li>Organizational Behaviour</li>
+                <li>Cyber security</li>
+                <li>CRM, Tableau, Veeam, Power BI,</li>
+                <li>Data Analysis and Visualization</li>
+            </ul>
+
+            <h3>Languages</h3>
+            <ul>
+                <li>English: Fluent</li>
+                <li>Russian: Beginner</li>
+                <li>German: Beginner</li>
+            </ul>
+        </section>
+
+
+
+        <section id="education">
+            <h2>Education & Courses</h2>
+            
+            <ul>
+                <li>
+            <strong>Bachelor's in Law</strong><br>
+            <span>Al Sadat University (2009)</span>
+        </li>
+        <li>
+            <strong>MBA</strong><br>
+            <span>International University for Science</span>
+        </li>
+        <li>
+            <strong>Diploma in Marketing Management</strong><br>
+            <span>Institute of Management</span>
+        </li>
+        <li>
+            <strong>Project Management</strong><br>
+            <span>Project Management Institute (PMI)</span>
+        </li>
+        <li>
+            <strong>Business Economic Management</strong><br>
+            <span>Institute of Management</span>
+        </li>
+        <li>
+            <strong>Manager's Toolkit Management</strong><br>
+            <span>The University of London</span>
+        </li>
+        <li>
+            <strong>Master in Digital Transformation</strong>
+        </li>
+        <li>
+            <strong>Account-Based Marketing to Get Biggest 5% of Clients</strong>
+        </li>
+        <li>
+            <strong>Business Communications & B2B/B2C</strong>
+        </li>
+        <li>
+            <strong>International Business & Professional Ethics</strong>
+        </li>
+        <li>
+            <strong>Project Risk Management & PSM || Scrum Master</strong>
+        </li>
+        <li>
+            <strong>Traffic Security, Road Safety, Public Security & Safety</strong><br>
+            <span>Udemy</span>
+        </li>
+        <li>
+            <strong>Strategy, Operations & Risk Management</strong><br>
+            <span>International Business Management Institute</span>
+        </li>
+        <li>
+            <strong>Cybersecurity Fundamentals</strong><br>
+            <span>IBM</span>
+        </li>
+        <li>
+            <strong>Customer Engagement</strong><br>
+            <span>IBM</span>
+        </li>
+        <li>
+            <strong>Working in a Digital World</strong><br>
+            <span>IBM</span>
+        </li>
+        <li>
+            <strong>Project Management Fundamentals</strong><br>
+            <span>IBM</span>
+        </li>
+        <li>
+            <strong>Agile Explorer</strong><br>
+            <span>IBM</span>
+        </li>
+        <li>
+            <strong>Robotic Process Automation</strong><br>
+            <span>IBM</span>
+        </li>
+        <li>
+            <strong>CRM & Tableau</strong><br>
+            <span>Salesforce</span>
+        </li>
+        <li>
+            <strong>Project Management</strong><br>
+            <span>Technical Institute of America</span>
+        </li>
+        <li>
+            <strong>Sales Management</strong><br>
+            <span>The American Chamber in Egypt</span>
+        </li>
+        <li>
+            <strong>The Power of Consultative Selling</strong><br>
+            <span>Qureos</span>
+        </li>
+        <li>
+            <strong>Revolutionizing Software Sales</strong><br>
+            <span>Qureos</span>
+        </li>
+        <li>
+            <strong>Business Management</strong><br>
+            <span>The American University of Sciences</span>
+        </li>
+        <li>
+            <strong>Introduction to End-to-End Analytics Using Fabric</strong><br>
+            <span>Microsoft</span>
+        </li>
+        <li>
+            <strong>Dynamic 365 Sales</strong><br>
+            <span>Microsoft</span>
+        </li>
+        <li>
+            <strong>Implement Initial Configuration Microsoft Entra ID</strong><br>
+            <span>Microsoft</span>
+        </li>
+        <li>
+            <strong>Introduction to Cybersecurity</strong><br>
+            <span>Cisco</span>
+        </li>
+        <li>
+            <strong>Engaging Stakeholders for Success</strong><br>
+            <span>Cisco</span>
+        </li>
+        <li>
+            <strong>Networking Basics</strong><br>
+            <span>Cisco</span>
+        </li>
+        <li>
+            <strong>Exploring SAP Cloud ERP</strong><br>
+            <span>Open SAP</span>
+        </li>
+        <li>
+            <strong>Composing and Automating with SAP Build</strong><br>
+            <span>Open SAP</span>
+        </li>
+        <li>
+            <strong>Discovering SAP Process Orchestration</strong><br>
+            <span>Open SAP</span>
+        </li>
+                               </ul>
+                               </div>
+       
+                                           </ul>
+                                </section>
+                       
+                                      <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you're looking for a dedicated and experienced professional to drive growth and foster meaningful partnerships, I'd love to hear from you. Let's connect and discuss how we can achieve outstanding results together.</p>
+    <p>You can reach me via : 
+    
+  
+                                                     <ul>
+                                                   <li>
+                                   <p><strong><p>Email</strong>: <a href="mailto:bassem-salah@outlook.com">bassem-salah@outlook.com</a></p></strong></p>
+                        
+                                   <li>
+                                   <p><strong><p>Mobile</strong>:+201223865023</p>
+                                   </li>
+                              <p>Thank you for visiting my portfolio. I look forward to the opportunity to collaborate with you and contribute to your organization's success.</p>
+                                   </ul>
+                                   </div>
+                               
+                        </section>
+                   </div>
+
+            <footer>
+              <p>&copy; 2025 Bassem Salah. All Rights Reserved.</p>
+           </footer>
+         </body>
+         </html>
